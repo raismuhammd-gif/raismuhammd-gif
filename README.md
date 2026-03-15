@@ -1,7 +1,4 @@
-{
-"action": "image_generation",
-"action_input": "{'prompt': 'A high-resolution professional GitHub profile banner with a dark blue circuit board or technical grid background. In the center, there is bold white text that says "MUHAMMAD RAIS" and a subtitle in yellow font that says "FULLSTACK DEVELOPER". On the left and right sides of the text, there are two black 8-bit pixel art dinosaurs (inspired by the Chrome Dino game). The style is modern, clean, and gamer-tech oriented. The aspect ratio is wide, suitable for a GitHub README header.'}"
-}
+
 ## 🌐 Socials:
 [![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/https://discord.gg/MRCsUXd7p) [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/Muhammad Rais) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/_mhd.raisz) [![TikTok](https://img.shields.io/badge/TikTok-%23000000.svg?logo=TikTok&logoColor=white)](https://tiktok.com/@mhd.raisz) [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=YouTube&logoColor=white)](https://youtube.com/@https://youtube.com/@muhammadrais2618?si=zi6oWoSJPP3QoBjP) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:raismuhammd@gmail.com) 
 
