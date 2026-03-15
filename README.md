@@ -3,66 +3,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Profil Muhammad Rais</title>
+    <title>Banner Dino Muhammad Rais</title>
     <style>
+        :root {
+            --bg-color: #3b5998; /* Warna biru sirkuit */
+            --text-color: #ffffff;
+        }
+
         body {
-            margin: 0;
-            padding: 0;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            /* Menggunakan gambar dinosaurus sebagai background */
-            background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
-                              url('https://images.unsplash.com/photo-1517923319047-49d79900224d?q=80&w=2064&auto=format&fit=crop');
-            background-size: cover;
-            background-position: center;
-            background-attachment: fixed;
-            height: 100vh;
+            background-color: #0d1117; /* Warna gelap GitHub */
             display: flex;
             justify-content: center;
             align-items: center;
-            color: white;
-        }
-
-        .card {
-            background: rgba(255, 255, 255, 0.1);
-            backdrop-filter: blur(10px);
-            padding: 30px;
-            border-radius: 15px;
-            text-align: center;
-            border: 1px solid rgba(255, 255, 255, 0.2);
-            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
-            max-width: 400px;
-        }
-
-        h1 {
+            height: 100vh;
             margin: 0;
-            font-size: 2.5em;
-            text-transform: uppercase;
-            letter-spacing: 2px;
+            font-family: 'Courier New', Courier, monospace;
         }
 
-        p {
-            font-size: 1.1em;
-            color: #ddd;
+        /* Container Banner */
+        .banner {
+            width: 800px;
+            height: 200px;
+            background-color: var(--bg-color);
+            background-image: 
+                radial-gradient(circle, rgba(255,255,255,0.1) 1px, transparent 1px);
+            background-size: 20px 20px; /* Pola titik/sirkuit */
+            border: 4px solid white;
+            border-radius: 10px;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
         }
 
-        .tag {
-            background: #e74c3c;
-            padding: 5px 15px;
-            border-radius: 20px;
-            font-size: 0.8em;
-            font-weight: bold;
+        /* Teks Utama */
+        .banner h1 {
+            color: white;
+            font-size: 2.5rem;
+            margin: 0;
+            z-index: 2;
+            text-shadow: 3px 3px #000;
         }
+
+        .banner p {
+            color: #f1c40f; /* Warna kuning untuk subtitle */
+            font-size: 1.2rem;
+            margin-top: 10px;
+            z-index: 2;
+        }
+
+        /* Karakter Dinosaurus (Pixel Art Style) */
+        .dino {
+            position: absolute;
+            bottom: 20px;
+            width: 50px;
+            height: 50px;
+            background-color: black;
+            /* Bentuk sederhana dino dengan clip-path */
+            clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 50%, 70% 50%, 70% 100%, 50% 100%, 50% 70%, 20% 70%, 20% 50%, 0% 50%, 0% 20%);
+        }
+
+        .dino-left { left: 40px; transform: scaleX(-1); }
+        .dino-right { right: 40px; }
+
+        /* Animasi sederhana agar dino terlihat 'hidup' */
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0) scaleX(-1); }
+            50% { transform: translateY(-5px) scaleX(-1); }
+        }
+        
+        .dino-left { animation: bounce 0.6s infinite; }
     </style>
 </head>
 <body>
 
-    <div class="card">
-        <span class="tag">Developer Profile</span>
-        <h1>Muhammad Rais</h1>
-        <p>Proses tidak akan pernah mengkhianati hasil.</p>
-        <hr style="border: 0.5px solid rgba(255,255,255,0.2); margin: 20px 0;">
-        <p>📍 Kab. Deli Serdang, Sumatera Utara</p>
+    <div class="banner">
+        <div class="dino dino-left"></div>
+        
+        <h1>Selamat Datang Di Muhammad Rais</h1>
+        <p>Pengembang Fullstack & UI Designer</p>
+        
+        <div class="dino dino-right"></div>
     </div>
+
+</body>
+</html>
 
 </body>
 </html>
