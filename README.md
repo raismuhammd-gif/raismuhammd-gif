@@ -22,7 +22,7 @@
 ### ✍️ Random Dev Quote
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
-### 📁 Top Contributed Repo:
+### 📁 Recently Worked Repository:
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/pin/?username=raismuhammd-gif&repo=raismuhammd-gif&theme=dark&show_owner=true" />
