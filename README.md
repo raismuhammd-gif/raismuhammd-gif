@@ -20,14 +20,14 @@
 </p>
 
 ### ✍️ Kutipan Pengembang Acak:
+
 <p align="center">
-  <img src="https://github-readme-quotes.vercel.app/api?type=horizontal&theme=dark" width="100%" />
+  <img src="https://anime-stats.vercel.app/api/quotes/random?theme=dark" width="100%" />
 </p>
 
-### 🔝 Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=raismuhammd-gif&limit=5&theme=dark&combine_all_yearly_contributions=true)
+### 📁 Repositori yang Baru Saja Dikerjakan:
 
----
-[![](https://visitcount.itsvg.in/api?id=raismuhammd-gif&icon=0&color=0)](https://visitcount.itsvg.in)
-
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=raismuhammd-gif&repo=raismuhammd-gif&theme=dark&show_owner=true" />
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=raismuhammd-gif&repo=NAMA_REPO_KAMU_LAINNYA&theme=dark&show_owner=true" />
+</p>
