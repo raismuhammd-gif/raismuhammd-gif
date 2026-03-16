@@ -19,7 +19,8 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=raismuhammd-gif&layout=compact&theme=dark&hide_border=false" height="170px" />
 </p>
 
-### ✍️  Random Dev Quote:
+### ✍️ Kutipan Pengembang Acak:
+
 <p align="center">
   <img src="https://github-readme-quotes.vercel.app/api?type=horizontal&theme=dark" width="100%" />
 </p>
