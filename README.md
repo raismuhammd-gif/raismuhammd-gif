@@ -22,7 +22,7 @@
 ### ✍️ Kutipan Pengembang Acak:
 
 <p align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark" width="100%" />
+  <img src="https://github-readme-quotes.vercel.app/api?type=horizontal&theme=dark" width="100%" />
 </p>
 
 ### 📁 Repositori yang Baru Saja Dikerjakan:
