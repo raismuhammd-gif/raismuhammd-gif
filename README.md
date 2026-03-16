@@ -20,7 +20,6 @@
 </p>
 
 ### ✍️  Random Dev Quote:
-
 <p align="center">
   <img src="https://github-readme-quotes.vercel.app/api?type=horizontal&theme=dark" width="100%" />
 </p>
