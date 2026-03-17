@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="github-header-banner (1).png" width="55%">
+  <img src="github-header-banner (2).png" width="100%">
 </p>
 
 ## 🎉 Fun Fact
